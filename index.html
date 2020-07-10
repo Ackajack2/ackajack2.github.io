@@ -48,7 +48,7 @@ var _yFn = function(t) {var fns = [function(t) {return (Math.pow((1-t),3)*0.1878
 			restitution: 0.9
 			}, scene);
 
-			BABYLON.SceneLoader.ImportMesh(null, "resources/", "cube.obj", scene, function(meshes) {
+			BABYLON.SceneLoader.ImportMesh(null, "resources/", "sadcube.obj", scene, function(meshes) {
 				var boostMesh = meshes[0], boosts = [];
 				boostMesh.material = new BABYLON.StandardMaterial("boostMaterial", scene);
 				boostMesh.material.diffuseColor = new BABYLON.Color3(0, 0, 0);
